@@ -1,78 +1,48 @@
-<div>
-  <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&theme=cobalt"  />
+<div align="center">
+  <h1>João Victor Brayner</h1>
+
+  <p>
+    Desenvolvedor backend
+  </p>
 </div>
 
-###
 
-<br clear="both">
+![](https://raw.githubusercontent.com/braynerdev/braynerdev/output-3d-contrib/day.svg)
+---
 
-<h1 align="center">Olá! Eu sou João Brayner.</h1>
+<div style="display: flex; flex-direction: row; align-items: center; justify-content: center; ">
 
-###
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=braynerdev&theme=github_dark)
 
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="60" alt="csharp logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" height="60" alt="dotnetcore logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="60" alt="linux logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="60" alt="docker logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="60" alt="git logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="60" alt="postgresql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" height="60" alt="microsoftsqlserver logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=py" height="60" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" height="60" alt="django logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="60" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="60" alt="java logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" height="60" alt="spring logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="60" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=ts" height="60" alt="typescript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="60" alt="react logo"  />
+![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=braynerdev&theme=github_dark&utcOffset=-3)
+
 </div>
 
-###
+<div style="display: flex; flex-direction: row; align-items: center; justify-content: center; ">
 
-<div align="center">
-  <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-brayner-817599323/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
+![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=braynerdev&theme=github_dark)
+
+
+![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=braynerdev&theme=github_dark)
+
+![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=braynerdev&theme=github_dark)
+
+</div>
+
+---
+
+## Tecnologias
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=cs,dotnet,postgres,mysql,git,docker,linux,py,django,java,spring,js,ts,react" />
+</p>
+
+---
+
+## Contato
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/joão-victor-brayner-817599323/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=linkedin" />
   </a>
-</div>
-
-###
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=braynerdev&radius=16&theme=dracula&area=true&order=5&hide_border=true&custom_title=Gr%C3%A1fico%20De%20Contribui%C3%A7%C3%A3o" height="200" alt="activity-graph graph"  />
-  <img src="https://github-readme-stats.vercel.app/api?username=braynerdev&hide_title=true&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=pt-br&hide_border=true&order=1" height="200" alt="stats graph"  />
-  <img src="https://streak-stats.demolab.com?user=braynerdev&locale=pt-br&mode=weekly&theme=dracula&hide_border=true&border_radius=5&order=3" height="200" alt="streak graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=braynerdev&locale=pt-br&hide_title=false&layout=compact&card_width=320&langs_count=10&theme=dracula&hide_border=false&order=2" height="200" alt="languages graph"  />
-</div>
-
-###
-
-<img src="https://raw.githubusercontent.com/braynerdev/braynerdev/output/snake.svg" alt="Snake animation" />
-
-###
-
-<div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=braynerdev.braynerdev&"  />
-</div>
-
-###
-
-<div>
-  <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&theme=cobalt"  />
-</div>
-
-###
+</p>
