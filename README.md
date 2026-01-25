@@ -7,27 +7,17 @@
 </div>
 
 
-![](https://raw.githubusercontent.com/braynerdev/braynerdev/output-3d-contrib/day.svg)
+![](https://raw.githubusercontent.com/braynerdev/braynerdev/output-3d-contrib/night.svg)
 ---
 
-<div style="display: flex; flex-direction: row; align-items: center; justify-content: center; ">
+| | |
+|---|---|
+| ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=braynerdev&theme=github_dark) | ![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=braynerdev&theme=github_dark&utcOffset=-3) |
 
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=braynerdev&theme=github_dark)
+| | | |
+|---|---|---|
+| ![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=braynerdev&theme=github_dark) | ![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=braynerdev&theme=github_dark) | ![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=braynerdev&theme=github_dark) |
 
-![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=braynerdev&theme=github_dark&utcOffset=-3)
-
-</div>
-
-<div style="display: flex; flex-direction: row; align-items: center; justify-content: center; ">
-
-![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=braynerdev&theme=github_dark)
-
-
-![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=braynerdev&theme=github_dark)
-
-![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=braynerdev&theme=github_dark)
-
-</div>
 
 ---
 
