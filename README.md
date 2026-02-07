@@ -12,11 +12,11 @@
 
 | | |
 |---|---|
-| ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=braynerdev&theme=github_dark) | ![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=braynerdev&theme=github_dark&utcOffset=-3) |
+| ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=braynerdev&theme=github_dark&cache_seconds=600) | ![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=braynerdev&theme=github_dark&utcOffset=-3&cache_seconds=600) |
 
 | | | |
 |---|---|---|
-| ![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=braynerdev&theme=github_dark) | ![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=braynerdev&theme=github_dark) | ![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=braynerdev&theme=github_dark) |
+| ![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=braynerdev&theme=github_dark&cache_seconds=600) | ![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=braynerdev&theme=github_dark&cache_seconds=600) | ![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=braynerdev&theme=github_dark&cache_seconds=600) |
 
 
 ---
