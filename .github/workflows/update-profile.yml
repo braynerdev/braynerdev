@@ -1,0 +1,69 @@
+name: Update profile
+
+# Sem "schedule" de propósito: o cron do GitHub nunca disparou neste repo e
+# desativa o workflow após 60 dias sem atividade. Quem dispara a cada 6 horas
+# é o cron-job.org, chamando a API workflow_dispatch (ver comando.txt).
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+# evita duas execuções fazendo force-push no mesmo branch ao mesmo tempo
+concurrency:
+  group: update-profile
+  cancel-in-progress: true
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+
+    steps:
+      # passo obrigatório para acessar o repositório
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # gera o snake game SVG a partir do gráfico de contribuições
+      - name: Generate github-contribution-grid-snake.svg
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      # publica os SVGs no branch 'output'
+      - name: Deploy SVGs to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  profile-3d:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: generate 3d contribution graph
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: braynerdev
+          SETTING_JSON: conf/github-profile-3d-contrib.json
+
+      - name: push SVGs to the output-3d branch
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output-3d-contrib
+          build_dir: profile-3d-contrib
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

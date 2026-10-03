@@ -1,2 +1,43 @@
-git commit --allow-empty -m "reactivate actions"
-git push
+ATUALIZAÇÃO DO PERFIL
+=====================
+
+Workflow: .github/workflows/update-profile.yml ("Update profile")
+Roda sozinho a cada 6 horas (disparado pelo cron-job.org) e a cada push na main.
+Não precisa mais de commit vazio ("reactivate actions").
+
+
+RODAR NA MÃO
+------------
+GitHub > Actions > "Update profile" > Run workflow (branch main)
+
+
+CRON-JOB.ORG
+------------
+URL:     https://api.github.com/repos/braynerdev/braynerdev/actions/workflows/update-profile.yml/dispatches
+Método:  POST
+Body:    {"ref":"main"}
+Headers:
+  Authorization: Bearer <TOKEN>
+  Accept: application/vnd.github+json
+  X-GitHub-Api-Version: 2022-11-28
+  Content-Type: application/json
+Agenda:  a cada 6 horas (00:17, 06:17, 12:17, 18:17)
+Sucesso: HTTP 204
+Deixar ligada a notificação por e-mail em caso de falha.
+
+
+TOKEN (fine-grained personal access token)
+------------------------------------------
+Criar em: https://github.com/settings/personal-access-tokens/new
+  Repository access: Only select repositories > braynerdev/braynerdev
+  Permissions > Repository > Actions: Read and write
+
+Expira em: ____/____/______   <- anotar aqui
+Quando expirar, o cron-job.org passa a receber 401: gerar um token novo e
+trocar no header Authorization do job.
+
+
+TESTAR O DISPARO (PowerShell, com o token em variável de ambiente)
+------------------------------------------------------------------
+$env:GH_DISPATCH_TOKEN = "<TOKEN>"
+curl.exe -i -X POST -H "Authorization: Bearer $env:GH_DISPATCH_TOKEN" -H "Accept: application/vnd.github+json" https://api.github.com/repos/braynerdev/braynerdev/actions/workflows/update-profile.yml/dispatches -d '{\"ref\":\"main\"}'
