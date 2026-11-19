@@ -43,10 +43,6 @@
 ## Contato
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/joão-victor-brayner-817599323/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin" />
-  </a>
-  <a href="mailto:dev.brayner@outlook.com">
-    <img src="https://img.shields.io/badge/E--mail-dev.brayner%40outlook.com-0078D4?style=for-the-badge" alt="dev.brayner@outlook.com" height="48" />
-  </a>
+  <a href="https://www.linkedin.com/in/joão-victor-brayner-817599323/" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" /></a>
+  <a href="mailto:dev.brayner@outlook.com" title="dev.brayner@outlook.com"><img src="assets/email.svg" alt="E-mail: dev.brayner@outlook.com" /></a>
 </p>

@@ -1,0 +1,6 @@
+<svg width="48" height="48" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>E-mail</title>
+  <rect width="256" height="256" rx="60" fill="#0078D4"/>
+  <rect x="40" y="68" width="176" height="120" rx="16" fill="#FFFFFF"/>
+  <path d="M52 82L128 138L204 82" stroke="#0078D4" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
