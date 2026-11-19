@@ -8,6 +8,13 @@
 
 
 ![](https://raw.githubusercontent.com/braynerdev/braynerdev/output-3d-contrib/night.svg)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/braynerdev/braynerdev/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/braynerdev/braynerdev/output/github-contribution-grid-snake.svg" />
+  <img alt="cobrinha comendo as contribuições" src="https://raw.githubusercontent.com/braynerdev/braynerdev/output/github-contribution-grid-snake-dark.svg" />
+</picture>
+
 ---
 
 | | |
@@ -34,5 +41,8 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/joão-victor-brayner-817599323/" target="_blank">
     <img src="https://skillicons.dev/icons?i=linkedin" />
+  </a>
+  <a href="mailto:dev.brayner@outlook.com">
+    <img src="https://img.shields.io/badge/E--mail-dev.brayner%40outlook.com-0078D4?style=for-the-badge" alt="dev.brayner@outlook.com" height="48" />
   </a>
 </p>

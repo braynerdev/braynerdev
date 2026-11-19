@@ -1,9 +1,13 @@
 name: Update profile
 
-# Sem "schedule" de propósito: o cron do GitHub nunca disparou neste repo e
-# desativa o workflow após 60 dias sem atividade. Quem dispara a cada 6 horas
-# é o cron-job.org, chamando a API workflow_dispatch (ver comando.txt).
+# Dois gatilhos de agenda, um reforçando o outro:
+# - schedule: cron do próprio GitHub a cada 6 horas, no minuto 47 (fora do pico
+#   do ":00", quando o GitHub costuma descartar agendamentos).
+# - workflow_dispatch: chamado pelo cron-job.org a cada 6 horas, no minuto 17.
+# Os minutos são diferentes para um não cancelar o outro (cancel-in-progress).
 on:
+  schedule:
+    - cron: "47 */6 * * *"
   workflow_dispatch:
   push:
     branches:
