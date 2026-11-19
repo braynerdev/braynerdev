@@ -31,7 +31,11 @@
 ## Tecnologias
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=cs,dotnet,postgres,mysql,git,docker,linux,py,django,java,spring,js,ts,react" />
+  <img src="https://skillicons.dev/icons?i=cs,dotnet,py,django,java,spring,js,ts,react,nextjs" />
+  <br />
+  <img src="https://skillicons.dev/icons?i=postgres,mysql" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" alt="SQL Server" height="48" />
+  <img src="https://skillicons.dev/icons?i=git,docker,aws,linux" />
 </p>
 
 ---
